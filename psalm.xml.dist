@@ -39,7 +39,7 @@
         <classAndDescendants name="RuntimeException"/>
     </ignoreExceptions>
 
-    <!--<issueHandlers>
+    <issueHandlers>
         <MissingOverrideAttribute errorLevel="suppress"/>
         <PluginIssue name="UnspecifiedVisibility">
             <errorLevel type="suppress">
@@ -51,7 +51,7 @@
                 <directory name="tests"/>
             </errorLevel>
         </UnusedClass>
-    </issueHandlers>-->
+    </issueHandlers>
 
     <forbiddenFunctions>
         <function name="dd"/>
